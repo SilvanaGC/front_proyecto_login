@@ -14,7 +14,7 @@ document.getElementById("buttonRegister").addEventListener('click',()=>{
       });
     }else{
       // URL a la que se enviará la petición POST
-const url = 'http://localhost:8090/login/';
+const url = 'https://microservice-production-b78e.up.railway.app/login/';
 
 // Datos que quieres enviar en el cuerpo de la petición
 const data = {
